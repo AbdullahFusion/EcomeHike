@@ -1,0 +1,865 @@
+    h1 @media (min-width: 1366px) and (max-width: 1600px) {
+    #menu>li>a {
+        font-size: 14px;
+    }
+
+    .header-btn {
+        font-size: 14px;
+    }
+
+    .menu-sub {
+        padding: 20px 0;
+    }
+
+    .menu-sub .container::after {
+        left: 18%;
+        top: -8%;
+    }
+
+    .legal {
+        font-size: 16px;
+        padding: 17px 35px;
+    }
+
+    .header-btn2 {
+        font-size: 14px;
+    }
+
+    .header-btn {
+        padding: 8px 30px;
+    }
+
+    .res-none {
+        display: none;
+    }
+
+    .menu {
+        opacity: 0;
+    }
+
+    .res-only {
+        opacity: 1;
+        z-index: 9999;
+    }
+
+    .menu .links-container {
+        padding: 40px;
+        padding-bottom: 0;
+        margin: 0;
+    }
+
+    .final-botm {
+        padding-top: 20px;
+    }
+
+    .menu .links-container a {
+        font-size: 22px;
+        height: 25px;
+    }
+
+    .menu .links-container a:hover {
+        font-size: 24px;
+    }
+
+    .menu {
+        height: 520px;
+    }
+
+    .bottom-ul {
+        padding: 0px 50px 0 0;
+    }
+
+    .banner-sec .themes-btn {
+        font-size: 14px;
+    }
+
+    .banner-sec a {
+        font-size: 14px;
+    }
+
+    .banner-sec img {
+        width: 730px;
+        bottom: -100px;
+        right: -30px;
+    }
+
+    /*.banner-second-txt h2{    margin: 70px 0 0px;}*/
+    .smallscreen {
+        display: block;
+        height: auto;
+    }
+
+    .small-screen-off {
+        display: none;
+    }
+}
+
+@media (min-width: 780px) and (max-width: 1365px) {
+    .smallscreen {
+        display: block;
+    }
+
+    .small-screen-off {
+        display: none;
+    }
+
+    #menu {
+        margin: 0 0 0 90px;
+    }
+
+    .header-btn2 {
+        padding: 20px 13px;
+        font-size: 14px;
+    }
+
+    .header-btn {
+        font-size: 14px;
+    }
+
+    #menu>li>a {
+        padding: 10px 13px;
+        font-size: 14px;
+    }
+
+    .logo img {
+        height: 30px;
+    }
+
+    .img-portion img {
+        margin: 0 0px;
+    }
+
+    .tetsiomal-txt p {
+        height: 200px;
+    }
+
+    .menu {
+        height: 450px;
+    }
+
+    .menu .links-container {
+        padding: 30px 30px 0;
+        padding-top: 35px;
+    }
+
+    .menu .links-container a {
+        font-size: 18px;
+        height: 20px;
+    }
+
+    .bottom-ul {
+        padding: 0px 50px 0 0;
+    }
+
+    .menu {
+        opacity: 0;
+    }
+
+    .res-only {
+        opacity: 1;
+    }
+
+    .bottom-ul ul li a {
+        font-size: 16px;
+    }
+
+    .bottom-ul ul li a {
+        line-height: 25px;
+    }
+
+    .final-botm h6 {
+        margin-top: 0px;
+    }
+
+    .menu .links-container a:hover {
+        font-size: 19px;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 40px !important;
+    }
+
+    .banner-sec p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .banner-sec a {
+        font-size: 14px;
+        padding: 16px 19px;
+    }
+
+    .banner-sec .themes-btn {
+        font-size: 14px;
+        padding: 16px 19px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    footer .footer-list .list-itemwrp ul li a {
+        font-size: 14px;
+    }
+
+    footer .txtwrp .main-heading {
+        line-height: 35px;
+        font-size: 28px;
+    }
+
+    .footer-bottom .main-wrp-list ul li a {
+        font-size: 12px;
+    }
+
+    .agent-sec h3 a {
+        font-size: 26px;
+    }
+
+    .footer-bottom .main-wrp-list ul li {
+        padding: 0 20px 0 0;
+    }
+
+    .banner-sec img {
+        width: 680px;
+        bottom: -94px;
+        right: -30px;
+    }
+
+    .banner-second-txt h2 {
+        margin: 70px 0 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+    .tab-header {
+        display: block;
+    }
+
+    .smallscreen {
+        display: none;
+    }
+
+    .small-screen-off {
+        display: none;
+    }
+
+    #menu {
+        margin: 0 0 0 0px;
+    }
+
+    .all-service {
+        opacity: 1;
+    }
+
+    .menu {
+        height: auto;
+    }
+
+    .img-portion img {
+        height: 35px;
+    }
+
+    .device {
+        display: none;
+    }
+
+    .banner-sec {
+        padding-top: 100px;
+    }
+
+    .banner-sec img {
+        display: none;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .header-btn {
+        display: none;
+    }
+
+    .attorneys-sec img {
+        width: 94%;
+        position: absolute;
+        top: 0;
+        left: 12px;
+    }
+
+    .attorneys-sec {
+        position: relative;
+    }
+
+    .attorneys-sec ul li a {
+        font-size: 12px;
+    }
+
+    .chosse-sec img {
+        width: 100%;
+    }
+
+    .legal-img-box img {
+        margin: 0 0 20px;
+    }
+
+    .footer-sec form button {
+        width: 32%;
+        font-size: 18px;
+    }
+
+    .socail li a {
+        font-size: 18px;
+    }
+
+    .copy-write {
+        padding-top: 30px;
+        margin-top: 20px;
+    }
+
+    .footer-sec .logo {
+        margin: 30px 0 0;
+    }
+
+    .main-box.active h2 {
+        font-size: 20px;
+    }
+
+    .attorneys-sec .white {
+        margin: 80px 0 0;
+    }
+
+    .list-page li a {
+        font-size: 12px;
+    }
+
+    .banner-main-sec h1 {
+        line-height: 35px;
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    p.cutom-size {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .themes-btn {
+        font-size: 14px;
+        padding: 18px 24px;
+    }
+
+    .right-box .row .col-lg-12 {
+        padding: 15px 15px;
+    }
+
+    .right-state table tr td {
+        padding: 5px !important;
+    }
+
+    .right-state table tr td a {
+        font-size: 7px;
+    }
+
+    .faq-sec .accordion-button {
+        font-size: 14px;
+    }
+
+    .faq-sec .accordion-button::after {
+        transform: scale(1);
+    }
+
+    .accordion-button::after {
+        width: 20px;
+        height: 20px;
+    }
+
+    .pack-box .pack-inner ul li {
+        font-size: 16px;
+    }
+
+    .pack-box .pack-inner {
+        height: auto;
+    }
+
+    .pack-box {
+        margin: 0 0 40px;
+    }
+
+    .step-sec h2 {
+        font-size: 24px;
+    }
+
+    .testament img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin: 20px 0 0;
+    }
+
+    .means-sec.style img {
+        height: auto;
+        margin: 0 0 20px
+    }
+
+    .means-sec h2 {
+        font-size: 26px;
+    }
+
+    .add-box {
+        padding: 50px 20px;
+    }
+
+    img.mg-lfe {
+        height: auto;
+        margin-left: 0;
+    }
+
+    .write-sec img {
+        height: auto;
+    }
+
+    .banner-main-sec.fast .banne-img {
+        width: 0;
+    }
+
+    .get-started-sec form button {
+        font-size: 18px;
+    }
+
+    .footer-sec .top-box h4 {
+        font-size: 16px;
+    }
+
+    .footer-sec .top-box a {
+        font-size: 18px;
+    }
+
+    .mil-team-sec a {
+        margin: 0 0 50px;
+    }
+
+    .agent-sec.style {
+        background: #dbd0cb;
+        background-image: unset;
+    }
+
+    .leader-main .row .col-lg-6:first-child {
+        padding: 30px;
+    }
+
+    .affordable-sec .trade-box {
+        width: 100%;
+        padding: 30px;
+        margin: 30px 0 0;
+    }
+
+    .customer-box {
+        margin: 0 auto 20px;
+    }
+
+    .slect-box {
+        width: 100%;
+    }
+
+    .banner-main-sec .themes-btn {
+        padding: 20px 20px;
+    }
+
+    .slect-box select {
+        width: 70%;
+        font-size: 14px;
+    }
+
+    .plan-box select {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    .plan-box {
+        padding: 60px 30px;
+    }
+
+    .personal-palns-sec img {
+        margin: 0 0 20px;
+    }
+
+    .prepaid-sec img {
+        margin: 0 0 20px
+    }
+
+    header .d-flex {
+        display: none !important;
+    }
+
+    header {
+        top: 60px !important;
+    }
+
+    .mobile-nav-btn {
+        top: 22px;
+    }
+
+    .banner-sec {
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin-top:50px;
+    }
+
+    .banner-sec .themes-btn {
+        padding: 14px 18px;
+        font-size: 14px;
+    }
+
+    .banner-sec a {
+        font-size: 14px;
+        padding: 14px 18px;
+    }
+
+    /*.banner-sec img{display:none;}*/
+    .attorneys-sec img {
+        display: none;
+    }
+
+    .attorneys-sec .white {
+        margin: 10px 0 0;
+    }
+
+    .attorneys-sec {
+        padding: 50px 0;
+    }
+
+    footer .footer-list {
+        display: unset;
+    }
+
+    footer .txtwrp .main-heading {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    footer .newz-top {
+        margin: 50px 0 0;
+    }
+
+    footer .txtwrp p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .footer-bottom .socail-icon {
+        justify-content: center;
+    }
+
+    .social-wrap {
+        display: block;
+    }
+
+    .mobile-nav .logo-main img {
+        height: 45px;
+    }
+
+    footer .footer-list .list-itemwrp ul h4 {
+        margin: 40px 0 10px;
+    }
+
+    .slicknav_menu {
+        display: none;
+    }
+
+    .app-container {
+        position: relative;
+    }
+
+    .device {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .minlion-sec.padd-tb h2 {
+        line-height: 40px;
+        margin: 20px 0 -10px;
+    }
+
+    .chosse-sec .imgwrp img {
+        opacity: 0;
+    }
+
+    .chosse-sec .round-cta .icon-text {
+        margin: 0 0 20px;
+    }
+
+    .chosse-sec .round-cta .icon-text img {
+        width: 40px;
+        margin: 0 10px 0 0;
+    }
+
+    .chosse-sec .chosse-btn {
+        float: left;
+    }
+
+    .chosse-sec .container {
+        padding: 40px 30px 40px;
+    }
+
+    .register-sec h2,
+    .register-sec p {
+        position: relative;
+        z-index: 2;
+    }
+
+    .row.mg-120 img {
+        margin: 20px 0 0;
+    }
+
+    .agent-sec {
+        padding: 20px 0 0;
+    }
+
+    .agent-sec img {
+        width: 420px;
+    }
+
+    .mil-team-sec a {
+        border: 3px solid #B1A45D;
+        color: #B1A45D;
+    }
+
+    .mil-team-sec a:hover {
+        background: #262108;
+    }
+
+    .banner-second-txt h2 {
+        margin: 60px 0 0px;
+    }
+
+    .chosse-sec:hover .container {
+        transform: scale(1);
+    }
+
+    .boxeswrp .home-boxes-image {
+        margin: 24px 0 0;
+    }
+
+    .boxeswrp .business-txt.other-col {
+        margin: 24px 0 24px;
+    }
+
+    .pricavy-toogle h6 {
+        width: 80%;
+    }
+
+    .main-review .circle-text p {
+        line-height: normal;
+    }
+
+    .leader-main img {
+        display: none;
+    }
+
+    .pricicing-box {
+        margin: 0 0 60px;
+    }
+
+    .means-sec ul li.tabs-bg {
+        padding: 50px 20px;
+    }
+
+    .about-banner h1 {
+        font-size: 56px;
+        line-height: 60px;
+    }
+
+    .about-banner p {
+        width: 100%;
+    }
+
+    .about-banner img {
+        border-radius: 30px;
+    }
+
+    .banner-main-sec:before {
+        content: '';
+        background: #ffffff73;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    .banner-second-txt a {
+        padding: 0 0 !important;
+    }
+
+    .main-review .circle-text {
+        padding: 40px;
+    }
+
+    .chosse-sec .chosse-btn {
+        color: #fff;
+    }
+
+    .boxeswrp .upper.first p:after {
+        padding: 0px 6px;
+    }
+
+    .banner-main-sec h1 {
+        z-index: 9;
+        position: relative;
+    }
+
+    .banner-main-sec p {
+        z-index: 9;
+        position: relative;
+    }
+
+    .banner-main-sec h6 {
+        z-index: 9;
+        position: relative;
+    }
+
+    .banner-main-sec .themes-btn {
+        z-index: 9;
+        position: relative;
+    }
+
+    .banner-main-sec .themes-btn+img {
+        z-index: 9;
+        position: relative;
+    }
+
+    .upper {
+        display: none;
+    }
+
+    .upper.first {
+        display: block;
+    }
+
+    .means-sec .imgwrp img {
+        margin: 50px 0 20px;
+    }
+
+    .estate-sec .equalwrp {
+        padding: 0px 15px 0;
+    }
+
+    .banner-main-sec img {
+        height: 20px;
+        margin: 0 0 20px;
+        /*add display none to make sure thank u page is responsive */
+        display:none;
+    }
+
+    .legal-help-sec.style .legaal-inner {
+        display: none;
+    }
+
+    .legal-img-box .legaal-inner {
+        display: none;
+    }
+
+    .legal-help-sec h3 br {
+        display: none;
+    }
+
+    .banner-main-sec .ban-imgwrp {
+        display: none;
+    }
+
+    .parallax-wrap {
+        display: none;
+    }
+
+    .circle-logo {
+        display: none;
+    }
+
+    .mil-team-sec .row.mt-5 div:nth-child(2) {
+        margin: 30px 0;
+    }
+
+    .marquee {
+        height: 500px;
+    }
+
+    .step-sec img {
+        margin: 0 0 20px;
+    }
+
+    .image-lable {
+        margin: -140px auto 50px;
+    }
+
+    .estate-sec .equalwrp {
+        height: 300px;
+    }
+
+    .ultimate-pg .rocketimg {
+        display: none;
+    }
+
+    .add-box.sty {
+        height: auto;
+    }
+
+    .ultimate-pg .means-sec ul li.tabs-bg img {
+        height: auto;
+        width: 100%;
+    }
+
+    .about-pg .upper.first p:after {
+        line-height: 30px;
+    }
+
+    .about-pg .image-lable {
+        margin: -120px auto 50px;
+        width: 90% !important;
+    }
+
+    .app-pg .banner-main-sec.fast .banne-img {
+        display: none;
+    }
+
+    .audit-pg .banner-main-sec h1 {
+        width: 100%;
+    }
+
+    .audit-pg .banner-main-sec .text {
+        width: 100%;
+        margin: 10px 0 50px;
+    }
+
+    .bedge-bg-clr {
+        margin: 0px 0px 0 0px;
+        text-align: left;
+    }
+
+    .bedge-bg-clr:before {
+        width: 163px;
+        height: 244px;
+    }
+
+    .bedge-bg-clr iframe {
+        margin: 40px 0 -50px 50px;
+    }
+}
