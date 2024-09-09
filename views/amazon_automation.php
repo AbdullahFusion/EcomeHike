@@ -29,13 +29,13 @@
                 <h1>We manage and grow your Amazon automation business entirely and collect profits</h1>
                 <p>Looking for an automated FBA store partner that provides profitable wholesale items & top-tier customer service?</p>
                 <h6><b>Partner with EcomHike and streamline your operations, enhance efficiency, and boost profitability.</b></h6>
-                <a href="javascript:void(0)" id="popup-btn" class="popup-btn themes-btn">Get Started</a>
+                <a href="javascript:void(0)"  class="popup-btn themes-btn">Get Started</a>
                 <!--<img src="assets/images/Trustpilot-Stars.svg" alt="img"  class="mt-3" />-->
                 <div class="txt-left">
                     <!-- TrustBox widget - Micro TrustScore -->
-                    <div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b637fa0340045cd0c936" data-businessunit-id="6663b05c3eb83ca97fbbddae" data-style-height="20px" data-style-width="100%" data-theme="light">
-                      <a href="https://www.trustpilot.com/review/starterx.co" target="_blank" rel="noopener">Trustpilot</a>
-                    </div>
+                    <!--<div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b637fa0340045cd0c936" data-businessunit-id="6663b05c3eb83ca97fbbddae" data-style-height="20px" data-style-width="100%" data-theme="light">-->
+                    <!--  <a href="https://www.trustpilot.com/review/starterx.co" target="_blank" rel="noopener">Trustpilot</a>-->
+                    <!--</div>-->
                     <!-- End TrustBox widget -->
                 </div>
             </div>
@@ -64,16 +64,16 @@
                 <p>The best way for Amazon sellers to simplify and optimize their business operations, Improve efficiency and maximize profits is to partner with EcomHike. Take the hassle out of managing your Amazon store. We handle the everyday tasks so you can focus on growing your business.</p>
             </div>
             <div class="col-lg-4">
-                <!-- <div class="circle-logo">
-    <a href="javascript:;" onclick="setButtonURL();">
-                    <div class="circle">
-                	<div class="logo"></div>
-                	<div class="text">
-                		<p> ☆ UNLOCK YOUR BUSINESS POTENTIAL ☆</p>
-                	</div>
-                </div>
-                </a>
-                </div> -->
+    <!--            <div class="circle-logo">-->
+    <!--<a href="javascript:;" onclick="setButtonURL();">-->
+    <!--                <div class="circle">-->
+    <!--            	<div class="logo"></div>-->
+    <!--            	<div class="text">-->
+    <!--            		<p> ☆ UNLOCK YOUR BUSINESS POTENTIAL ☆</p>-->
+    <!--            	</div>-->
+    <!--            </div>-->
+    <!--            </a>-->
+    <!--            </div>-->
                 <script>
                 const text = document.querySelector(".text");
                 text.innerHTML = text.innerText
@@ -355,7 +355,7 @@
                <p>Our experts handle orders, manage inventory, and oversee fulfillment through our warehouse for 12 months, ensuring smooth operations.</p>
                <h3><img src="assets/images/Increase-Sales.svg" alt="img" class="img-size"> Increase sales</h3>
                <p>We analyze competitors, secure wholesaler status, list unlimited items, and implement strategies to win the "Buy Box" for 15-25% profit.</p>
-               <a href="javascript:void(0)"  class="popup-btn themes-btn mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Ready to launch an amazon automation with EcomHike?</a>
+               <a href="javascript:void(0)" class="popup-btn themes-btn mt-3" >Ready to launch an amazon automation with EcomHike?</a>
            </div>
            <div class="col-lg-5 offset-lg-1 my-auto">
                <div class="imgwrp">
@@ -428,7 +428,7 @@
                         </ul>
                         
                   <h6>Get onboarded Today and let our account representatives set up your store.</h6>      
-                  <a href="javascript:void(0)" id="popup-btn"  class="popup-btn themes-btn">Get Started</a>
+                  <a href="javascript:void(0)"  class="popup-btn themes-btn">Get Started</a>
                   
                 </div>
                 <div class="col-lg-6">
@@ -518,7 +518,7 @@
         </div>
         <div class="row">
             <div class="col-lg-6">
-                <a href="javascript:void(0)" id="popup-btn"  class="popup-btn themes-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Started</a>
+                <a href="javascript:void(0)"  class="popup-btn themes-btn" >Get Started</a>
             </div>
         </div>
     </div>
@@ -568,7 +568,7 @@
                 <p>Take the first step towards success by sharing essential details about your venture with us. We're here to guide you through the journey.</p>
                 <h4><b>Help us get an idea of what business or idea is all about.</b></h4>
                 <div class="col-lg-12 centerCol text-center">
-                <a href="javascript:void(0)" id="popup-btn"   class="popup-btn themes-btn">Get Started</a>
+                <a href="javascript:void(0)"  class="popup-btn themes-btn">Get Started</a>
             </div>
                 <!--  <form action="https://starterx.co/dev2/webpages/bannerFormController.php" method="post" class="mt-5">-->
                 <!--    <div class="row">-->
@@ -812,7 +812,7 @@
                         <p>Weekends: 7 a.m.–4 p.m. (GMT-5)</p>
                     </div>
                     <div class="col-lg-12">
-                        <a href="javascript:void(0)" id="popup-btn"   class="popup-btn legal">Get Started</a>
+                        <a href="javascript:void(0)" class="popup-btn legal">Get Started</a>
                     </div>
                 </div>
             </div>
@@ -830,6 +830,7 @@
 
 
 <?php include_once('../includes/footer.php') ?>
+
 
 <style>
   
@@ -858,6 +859,8 @@
     max-width: 400px;
     opacity: 0;
     animation: fadeIn 0.4s ease-in-out forwards;
+    border-radius: 30px;
+    /* background: transparent; */
 }
 
 .close-btn {
@@ -889,6 +892,7 @@ form input, form textarea {
     padding: 10px;
     margin: 10px 0;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 
 form button {
@@ -899,10 +903,16 @@ form button {
     cursor: pointer;
 }
 
-form button:hover {
-    background-color: #45a049;
+form .formbtn:hover {
+    background-color: #013036;
+    transition: .3s ease;
+    color: white;
 }
 
+form input{
+    border-radius: 10px;
+    border: 1px solid #013036;
+}
 
 </style>   
 
@@ -925,7 +935,7 @@ form button:hover {
             <label for="message">Message</label>
             <textarea id="message" name="message" placeholder="Your message" required></textarea>
 
-            <input type="submit"  value="Submit">
+            <input type="submit" class="formbtn" value="Submit">
         </form>
     </div>
 </div>
@@ -982,37 +992,6 @@ window.addEventListener('click', function(event) {
 // $('.overlay-bg').fadeOut(700);
 // });
 </script>
-<!-- <script>
-document.addEventListener("DOMContentLoaded", function() {
-    var myModal = new bootstrap.Modal(document.getElementById('exampleModal'), {});
-    var showModalAfterDelay = function(delay) {
-        setTimeout(function() {
-            if (closeCount < 3) {  // Check if the modal has been shown less than 3 times
-                myModal.show();
-            }
-        }, delay);
-    };
-
-    // Show the modal for the first time after 5 seconds
-    showModalAfterDelay(5000);
-
-    var closeCount = 0;
-
-    // Set up an event listener for when the modal is hidden
-    document.getElementById('exampleModal').addEventListener('hide.bs.modal', function () {
-        closeCount++;
-        var nextDelay;
-        if (closeCount === 1) {
-            nextDelay = 30000; // 30 seconds after first close
-        } else if (closeCount === 2) {
-            nextDelay = 60000; // 60 seconds after second close
-        } else {
-            return; // Stop showing the modal after 3 times
-        }
-        showModalAfterDelay(nextDelay);
-    });
-});
-</script> -->
 
 
  	<script src="assets/js/jquery-3.6.0.min.js"></script>

@@ -1,4 +1,4 @@
-@media (min-width: 1366px) and (max-width: 1600px) {
+    h1 @media (min-width: 1366px) and (max-width: 1600px) {
     #menu>li>a {
         font-size: 14px;
     }
@@ -516,6 +516,7 @@
 
     h1 {
         font-size: 36px;
+        margin-top:50px;
     }
 
     .banner-sec .themes-btn {
@@ -765,6 +766,8 @@
     .banner-main-sec img {
         height: 20px;
         margin: 0 0 20px;
+        /*add display none to make sure thank u page is responsive */
+        display:none;
     }
 
     .legal-help-sec.style .legaal-inner {

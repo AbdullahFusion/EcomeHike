@@ -30,13 +30,13 @@
                 <h1>EcomHike, specialize in reinstating suspended amazon seller accounts</h1>
                 <p>Has your amazon seller account been suspended? and looking for an amazon reinstatement service </p>
                 <h6><b>Partner with EcomHike and regain control of your amazon business with our specialized amazon seller account reinstatement service. </b></h6>
-                <a href="#" class="themes-btn">Get Started</a>
+                <a href="javascript:void(0)" class="popup-btn themes-btn">Get Started</a>
                 <!--<img src="assets/images/Trustpilot-Stars.svg" alt="img"  class="mt-3" />-->
                 <div class="txt-left">
                     <!-- TrustBox widget - Micro TrustScore -->
-                    <div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b637fa0340045cd0c936" data-businessunit-id="6663b05c3eb83ca97fbbddae" data-style-height="20px" data-style-width="100%" data-theme="light">
-                      <a href="https://www.trustpilot.com/review/starterx.co" target="_blank" rel="noopener">Trustpilot</a>
-                    </div>
+                    <!--<div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b637fa0340045cd0c936" data-businessunit-id="6663b05c3eb83ca97fbbddae" data-style-height="20px" data-style-width="100%" data-theme="light">-->
+                    <!--  <a href="https://www.trustpilot.com/review/starterx.co" target="_blank" rel="noopener">Trustpilot</a>-->
+                    <!--</div>-->
                     <!-- End TrustBox widget -->
                     </div>
             </div>
@@ -64,16 +64,16 @@
                 <p>As seasoned experts in navigating Amazon’s complex policies, we understand the challenges you face when your account is suspended or restricted.</p>
             </div>
             <div class="col-lg-4">
-                <div class="circle-logo">
-    <a href="javascript:;" onclick="setButtonURL();">
-                    <div class="circle">
-                	<div class="logo"></div>
-                	<div class="text">
-                		<p> ☆ UNLOCK YOUR BUSINESS POTENTIAL ☆</p>
-                	</div>
-                </div>
-                </a>
-                </div>
+    <!--            <div class="circle-logo">-->
+    <!--<a href="javascript:;" onclick="setButtonURL();">-->
+    <!--                <div class="circle">-->
+    <!--            	<div class="logo"></div>-->
+    <!--            	<div class="text">-->
+    <!--            		<p> ☆ UNLOCK YOUR BUSINESS POTENTIAL ☆</p>-->
+    <!--            	</div>-->
+    <!--            </div>-->
+    <!--            </a>-->
+    <!--            </div>-->
                 <script>
                 const text = document.querySelector(".text");
                 text.innerHTML = text.innerText
@@ -116,6 +116,8 @@
 
 
 <?php include_once('../includes/testimonial.php') ?>
+
+
 
 
 
@@ -356,7 +358,7 @@
                
                <h3><img src="assets/images/Support-and-Guidance.svg" alt="img" class="img-size">Support and guidance</h3>
                <p>Our proactive approach includes post-reinstatement strategies to ensure long-term compliance and account health.</p>
-               <a href="#" class="themes-btn mt-3">Get Started</a>
+               <a href="javascript:void(0)" class="popup-btn themes-btn mt-3">Get Started</a>
            </div>
            <div class="col-lg-5 offset-lg-1 my-auto">
                <div class="imgwrp">
@@ -429,7 +431,7 @@
                         </ul>
                         
                   <h6>We are here to help you every step of amazon account reinstatement.</h6>      
-                  <a href="#" class="themes-btn">Get Started</a>
+                  <a href="javascript:void(0)" class="popup-btn themes-btn">Get Started</a>
                   
                 </div>
                 <div class="col-lg-6">
@@ -514,7 +516,7 @@
         </div>
         <div class="row">
             <div class="col-lg-6">
-                <a href="#" class="themes-btn">Get Started</a>
+                <a href="javascript:void(0)" class="popup-btn themes-btn">Get Started</a>
             </div>
         </div>
     </div>
@@ -564,7 +566,7 @@
                 <p>Take the first step towards success by sharing essential details about your venture with us. We're here to guide you through the journey.</p>
                 <h4><b>Help us get an idea of what business or idea is all about.</b></h4>
                 <div class="col-lg-12 centerCol text-center">
-                <a href="#" class="themes-btn">Get Started</a>
+                <a href="javascript:void(0)" class="popup-btn themes-btn">Get Started</a>
             </div>
                 <!--  <form action="https://starterx.co/dev2/webpages/bannerFormController.php" method="post" class="mt-5">-->
                 <!--    <div class="row">-->
@@ -765,7 +767,7 @@
                         <p>Weekends: 7 a.m.–4 p.m. (GMT-5)</p>
                     </div>
                     <div class="col-lg-12">
-                        <a href="#" class="legal">Get Started</a>
+                        <a href="javascript:void(0)" class="popup-btn legal">Get Started</a>
                     </div>
                 </div>
             </div>
@@ -784,37 +786,166 @@
 <?php include_once('../includes/footer.php') ?>
 
 
-<!-- <script>
-document.addEventListener("DOMContentLoaded", function() {
-    var myModal = new bootstrap.Modal(document.getElementById('exampleModal'), {});
-    var showModalAfterDelay = function(delay) {
-        setTimeout(function() {
-            if (closeCount < 3) {  // Check if the modal has been shown less than 3 times
-                myModal.show();
-            }
-        }, delay);
-    };
+<style>
+  
+/* Popup Form Styles */
+.popup-form {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: fadeInBackground 0.4s ease-in-out;
+}
 
-    // Show the modal for the first time after 5 seconds
-    showModalAfterDelay(5000);
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    opacity: 0;
+    animation: fadeIn 0.4s ease-in-out forwards;
+    border-radius: 30px;
+    /* background: transparent; */
+}
 
-    var closeCount = 0;
+.close-btn {
+    color: red;
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
 
-    // Set up an event listener for when the modal is hidden
-    document.getElementById('exampleModal').addEventListener('hide.bs.modal', function () {
-        closeCount++;
-        var nextDelay;
-        if (closeCount === 1) {
-            nextDelay = 30000; // 30 seconds after first close
-        } else if (closeCount === 2) {
-            nextDelay = 60000; // 60 seconds after second close
-        } else {
-            return; // Stop showing the modal after 3 times
-        }
-        showModalAfterDelay(nextDelay);
+/* Animations */
+@keyframes fadeInBackground {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { background-color: rgba(0, 0, 0, 0.5); }
+}
+
+@keyframes fadeIn {
+    from { transform: translate(-50%, -50%) scale(0.9); opacity: 0; }
+    to { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+    to { transform: translate(-50%, -50%) scale(0.9); opacity: 0; }
+}
+
+/* Form Input Styles */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form .formbtn:hover {
+    background-color: #013036;
+    transition: .3s ease;
+    color: white;
+}
+
+form input{
+    border-radius: 10px;
+    border: 1px solid #013036;
+}
+
+</style>   
+
+
+<!-- Popup Form -->
+<div id="popupForm" class="popup-form">
+    <div class="popup-content">
+        <span class="close-btn">&times;</span>
+        <h3>Contact Us</h3>
+        <form action="/mail" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your message" required></textarea>
+
+            <input type="submit" class="formbtn" value="Submit">
+        </form>
+    </div>
+</div>
+
+<script>
+
+// Get all elements with the popup-btn class
+// Get all elements with the popup-btn class
+const popupBtns = document.querySelectorAll('.popup-btn');
+const popupForm = document.getElementById('popupForm');
+const closeBtn = document.querySelector('.close-btn');
+
+// Loop through each popup-btn and add event listeners
+popupBtns.forEach(function(popupBtn) {
+    popupBtn.addEventListener('click', function() {
+        popupForm.style.display = 'block';
     });
 });
-</script> -->
+
+// Close the popup form when the close button is clicked
+closeBtn.addEventListener('click', function() {
+    popupForm.style.display = 'none';
+});
+
+// Close the popup form when clicking outside the popup content
+window.addEventListener('click', function(event) {
+    if (event.target == popupForm) {
+        popupForm.style.display = 'none';
+    }
+});
+
+
+
+
+// $('.popup-btn').on('click', function(){
+// $('.popupform-main').addClass('active');
+// $('body').addClass('o-hidden');
+// $('.overlay-bg').fadeIn(500);
+// $('.close-btn').on('click', function(){
+// $('.popupform-main').removeClass('active');
+// $('body').removeClass('o-hidden');
+// $('.overlay-bg').fadeOut(500);
+// });
+// $('.overlay-bg').click(function() {
+// $('popupform-main').removeClass('active');
+// $('body').removeClass('o-hidden');
+// $('.overlay-bg').fadeOut(500);
+
+// });
+// });
+// $('.close-btn ,.no-thanks').on('click', function(){
+// $('.popupform-main').removeClass('active');
+// $('body').removeClass('o-hidden');
+// $('.overlay-bg').fadeOut(700);
+// });
+</script>
 
 
  	<script src="assets/js/jquery-3.6.0.min.js"></script>

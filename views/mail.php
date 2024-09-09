@@ -19,14 +19,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host       = 'mail.ecomhike.com';  // SMTP server address
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'support@ecomhike.com'; // SMTP username
-        $mail->Password   = 'Ec0m!:)klevr'; // SMTP password
+        $mail->Username   = 'info@ecomhike.com'; // SMTP username
+        $mail->Password   = 'hike!:)!=ec0m'; // SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // Use SSL/TLS
         $mail->Port       = 465; // SMTP port
 
         // Recipients
-        $mail->setFrom('support@ecomhike.com', 'Ecom Hike');
-        $mail->addAddress('support@ecomhike.com'); // Recipient email address
+        $mail->setFrom('info@ecomhike.com', 'Ecom Hike');
+        $mail->addAddress('info@ecomhike.com'); // Recipient email address
 
         // Content
         $mail->isHTML(true);

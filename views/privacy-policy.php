@@ -232,6 +232,8 @@
     max-width: 400px;
     opacity: 0;
     animation: fadeIn 0.4s ease-in-out forwards;
+    border-radius: 30px;
+    /* background: transparent; */
 }
 
 .close-btn {
@@ -263,6 +265,7 @@ form input, form textarea {
     padding: 10px;
     margin: 10px 0;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 
 form button {
@@ -273,10 +276,16 @@ form button {
     cursor: pointer;
 }
 
-form button:hover {
-    background-color: #45a049;
+form .formbtn:hover {
+    background-color: #013036;
+    transition: .3s ease;
+    color: white;
 }
 
+form input{
+    border-radius: 10px;
+    border: 1px solid #013036;
+}
 
 </style>   
 
@@ -299,7 +308,7 @@ form button:hover {
             <label for="message">Message</label>
             <textarea id="message" name="message" placeholder="Your message" required></textarea>
 
-            <input type="submit"  value="Submit">
+            <input type="submit" class="formbtn" value="Submit">
         </form>
     </div>
 </div>

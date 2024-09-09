@@ -37,7 +37,7 @@
         <div class="row">
             <div class="col-lg-6">
               <h1>Expect a call or email from us within the next <strng class="clr-theme">12-24 hours</strng> to discuss your needs and how we can assist you.</h1>
-              <a href="service" class="themes-btn cntct-btn">Learn more</a>
+              <!--<a href="service" class="themes-btn cntct-btn">Learn more</a>-->
             </div>
         </div>
     </div>
@@ -80,37 +80,166 @@
 <?php include_once('../includes/footer.php') ?>
 
 
-<!-- <script>
-document.addEventListener("DOMContentLoaded", function() {
-    var myModal = new bootstrap.Modal(document.getElementById('exampleModal'), {});
-    var showModalAfterDelay = function(delay) {
-        setTimeout(function() {
-            if (closeCount < 3) {  // Check if the modal has been shown less than 3 times
-                myModal.show();
-            }
-        }, delay);
-    };
+<style>
+  
+/* Popup Form Styles */
+.popup-form {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: fadeInBackground 0.4s ease-in-out;
+}
 
-    // Show the modal for the first time after 5 seconds
-    showModalAfterDelay(5000);
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    opacity: 0;
+    animation: fadeIn 0.4s ease-in-out forwards;
+    border-radius: 30px;
+    /* background: transparent; */
+}
 
-    var closeCount = 0;
+.close-btn {
+    color: red;
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
 
-    // Set up an event listener for when the modal is hidden
-    document.getElementById('exampleModal').addEventListener('hide.bs.modal', function () {
-        closeCount++;
-        var nextDelay;
-        if (closeCount === 1) {
-            nextDelay = 30000; // 30 seconds after first close
-        } else if (closeCount === 2) {
-            nextDelay = 60000; // 60 seconds after second close
-        } else {
-            return; // Stop showing the modal after 3 times
-        }
-        showModalAfterDelay(nextDelay);
+/* Animations */
+@keyframes fadeInBackground {
+    from { background-color: rgba(0, 0, 0, 0); }
+    to { background-color: rgba(0, 0, 0, 0.5); }
+}
+
+@keyframes fadeIn {
+    from { transform: translate(-50%, -50%) scale(0.9); opacity: 0; }
+    to { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+    to { transform: translate(-50%, -50%) scale(0.9); opacity: 0; }
+}
+
+/* Form Input Styles */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form .formbtn:hover {
+    background-color: #013036;
+    transition: .3s ease;
+    color: white;
+}
+
+form input{
+    border-radius: 10px;
+    border: 1px solid #013036;
+}
+
+</style>   
+
+
+<!-- Popup Form -->
+<div id="popupForm" class="popup-form">
+    <div class="popup-content">
+        <span class="close-btn">&times;</span>
+        <h3>Contact Us</h3>
+        <form action="/mail" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your message" required></textarea>
+
+            <input type="submit" class="formbtn" value="Submit">
+        </form>
+    </div>
+</div>
+
+<script>
+
+// Get all elements with the popup-btn class
+// Get all elements with the popup-btn class
+const popupBtns = document.querySelectorAll('.popup-btn');
+const popupForm = document.getElementById('popupForm');
+const closeBtn = document.querySelector('.close-btn');
+
+// Loop through each popup-btn and add event listeners
+popupBtns.forEach(function(popupBtn) {
+    popupBtn.addEventListener('click', function() {
+        popupForm.style.display = 'block';
     });
 });
-</script> -->
+
+// Close the popup form when the close button is clicked
+closeBtn.addEventListener('click', function() {
+    popupForm.style.display = 'none';
+});
+
+// Close the popup form when clicking outside the popup content
+window.addEventListener('click', function(event) {
+    if (event.target == popupForm) {
+        popupForm.style.display = 'none';
+    }
+});
+
+
+
+
+// $('.popup-btn').on('click', function(){
+// $('.popupform-main').addClass('active');
+// $('body').addClass('o-hidden');
+// $('.overlay-bg').fadeIn(500);
+// $('.close-btn').on('click', function(){
+// $('.popupform-main').removeClass('active');
+// $('body').removeClass('o-hidden');
+// $('.overlay-bg').fadeOut(500);
+// });
+// $('.overlay-bg').click(function() {
+// $('popupform-main').removeClass('active');
+// $('body').removeClass('o-hidden');
+// $('.overlay-bg').fadeOut(500);
+
+// });
+// });
+// $('.close-btn ,.no-thanks').on('click', function(){
+// $('.popupform-main').removeClass('active');
+// $('body').removeClass('o-hidden');
+// $('.overlay-bg').fadeOut(700);
+// });
+</script>
 
 
  	<script src="assets/js/jquery-3.6.0.min.js"></script>

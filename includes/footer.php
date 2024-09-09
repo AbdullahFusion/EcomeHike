@@ -36,7 +36,7 @@
                             <!-- <li><a href="https://starterx.co/application">Get A Consultation</a></li> -->
                             <!--<li><a href="https://starterx.co/support-consultancy">Support Consultancy</a></li>-->
                             <li><a href="/contact">Contact</a></li>
-                            <li><a href="/faq">FAQ's</a></li>
+                             <li><a href="/faq">FAQ's</a></li>
                             <li><a href="/privacy-policy">Privacy Policy</a></li>
                             <li><a href="/term-of-services">Terms of Service</a></li>
                             <!-- <a href="https://starterx.co/terms-of-service" class="home">Terms of Service</a> -->
@@ -55,11 +55,11 @@
                         <div class="social-wrap">
                                 <ul class="socail-icon">
                               <!--<li><a href="javascript:;" target="_blank"><img src="assets/images/dribbble.svg"></a></li>-->
-                              <li><a href="#" target="_blank"><img src="../assets/images/StarterX-Badges-08.svg"></a></li>
-                              <li><a href="#" target="_blank"><img src="../assets/images/StarterX-Badges.svg"></a></li>
+                              <li><a href="https://www.facebook.com/ecomhike" target="_blank"><img src="../assets/images/StarterX-Badges-08.svg"></a></li>
+                              <li><a href="https://www.linkedin.com/company/ecom-hike" target="_blank"><img src="../assets/images/StarterX-Badges.svg"></a></li>
                               <!--<li><a href="javascript:;" target="_blank"><img src="assets/images/twitter.svg"></a></li>-->
                               <!--<li><a href="javascript:;" target="_blank"><img src="assets/images/pinterest.svg"></a></li>-->
-                              <li><a href="#" target="_blank"><img src="../assets/images/StarterX-Badges-10.svg"></a></li>
+                              <li><a href="https://www.instagram.com/ecomhike_/" target="_blank"><img src="../assets/images/StarterX-Badges-10.svg"></a></li>
                               <!-- <li><a href="https://www.instagram.com/starterx.co/" target="_blank"><img src="assets/images/StarterX-Badges-09.svg"></a></li> -->
                            </ul>
                         </div>
@@ -71,15 +71,15 @@
             <div class="col-md-8">
                 <div class="txtwrp">
                     <h2 class="main-heading">Business strategists with you,<br> every step of the way</h2>
-                    <p>Get help from StarterX and discover how we can assist you on your entrepreneurial journey.</p>
+                    <p>Get help from EcomHike and discover how we can assist you on your entrepreneurial journey.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <h4>Digital acceleration editorial <span>Boost innovation with insights for change</span></h4>
-                <form class="news-letter" method="POST"  action="/email">
+               <form class="news-letter" method="POST"  action="/email">
                    <div class="news-letter-b">
                    <input type="Email" name="Email" placeholder="Enter email address" required>
-                   <input type="submit"  value="Submit">
+                   <button name="submit" type="submit">Submit</button>
                    <input class="" type="hidden" name="ctry" value="">
                                     <input type="hidden" name="pc" value="">
                                     <input type="hidden" name="cip" value="">

@@ -32,7 +32,7 @@
     <!-- <li><a href="https://starterx.co/ultimate-business-model">Ultimate Business Model</a></li> -->
     
     <li><a href="/contact">Contact us</a></li>
-    <li><a href="/faq">FAQs</a></li>
+    <li><a href="#">FAQs</a></li>
       </ul>
     </nav>
   </div>

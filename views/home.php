@@ -34,9 +34,9 @@
                     <!--<img class="home-trust-img" src="assets/images/Trustpilot-Stars.svg" alt="img" data-aos="zoom-in-down">-->
                     <div class="txt-left" style="margin-bottom:30px;">
                     <!-- TrustBox widget - Micro TrustScore -->
-                    <!-- <div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b637fa0340045cd0c936" data-businessunit-id="6663b05c3eb83ca97fbbddae" data-style-height="20px" data-style-width="100%" data-theme="light">
-                      <a href="https://www.trustpilot.com/review/starterx.co" target="_blank" rel="noopener">Trustpilot</a>
-                    </div> -->
+                    <!--<div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b637fa0340045cd0c936" data-businessunit-id="6663b05c3eb83ca97fbbddae" data-style-height="20px" data-style-width="100%" data-theme="light">-->
+                    <!--  <a href="https://www.trustpilot.com/review/starterx.co" target="_blank" rel="noopener">Trustpilot</a>-->
+                    <!--</div>-->
                     <!-- End TrustBox widget -->
                 </div>
                     <h1 class=""  data-aos="fade-up"     data-aos-duration="1000">Your <span class="markers" style="display:inline-block; color:#000;">no.1</span> business partner</h1>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="banner-second-txt"  data-aos="fade-up"     data-aos-duration="2000">
                     <!--<div class="top-first"><iframe border="0" frameborder="0" style="border: 0; height:166px; width:81px;" src="https://seal-stlouis.bbb.org/frame/black-seal-81-171-bbb-1000045048.png?chk=D9A82D9D76"></iframe></div>-->
-                    <div class="top-first top-second"><h2 class="wow fadeInDown">Not sure what type of business services <br> is right for you?  <a href="javascript:void(0)" class="popup-btn" >Let's Get Started</a></h2></div>
+                    <div class="top-first top-second"><h2 class="wow fadeInDown">Not sure what type of business services <br> is right for you? <a href="javascript:void(0)" class="popup-btn">Lets Get Started </a></h2></div>
                 </div>
             </div>
             <div class="col-lg-5 offset-lg-1">
@@ -66,7 +66,7 @@
         <div class="row">
             <div class="col-lg-2">
                 <div class="bedge-bg-clr">
-                <iframe border="0" frameborder="0" style="border: 0; height:171px; width:81px;" src="https://seal-stlouis.bbb.org/frame/black-seal-81-171-bbb-1000045048.png?chk=D9A82D9D76"></iframe>
+                <!--<iframe border="0" frameborder="0" style="border: 0; height:171px; width:81px;" src="https://seal-stlouis.bbb.org/frame/black-seal-81-171-bbb-1000045048.png?chk=D9A82D9D76"></iframe>-->
                 </div>
             </div>
             <div class="col-lg-7 offset-lg-1">
@@ -592,7 +592,7 @@
             <div class="col-lg-5">
                 <h3>Be your own boss, empower <br> your journey</h3>
                 <p>Elevate your personal brand with our services tailored for entrepreneurs like you. Discover the perfect fit for your personal business journey.</p>
-                <a href="javascript:void(0)" id="popup-btn" class="popup-btn themes-btn">Get Started</a>
+                <a href="javascript:void(0)"  class="popup-btn themes-btn">Get Started</a>
                 <ul>
                     <!-- <li><a href="https://starterx.co/start-your-ecommerce-brand">Start Ecommerce Agency</a></li> -->
                     <!-- <li><a href="https://starterx.co/personal-branding">Personal Branding</a></li> -->
@@ -641,7 +641,7 @@
             <div class="col-lg-5">
                 <h2>Why choose EcomHike</h2>
                 <h3>We do right by you</h3>
-                <p>Your satisfaction is our priority. If you're unhappy with our services within the first 30 days, we'll refund you. <a href="javascript:(void)"><u>Learn more</u></a></p>
+                <p>Your satisfaction is our priority. If you're unhappy with our services within the first 30 days, we'll refund you. </p>
 
                 <h3>Global coverage</h3>
                 <p>EcomHike covers all corners with expert strategists in the United States, United Kingdom, and Dubai. We deliver results no matter where you are—no need to leave home to work with our experts.</p>
@@ -675,7 +675,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <a href="javascript:void(0)" id="popup-btn" class="popup-btn chosse-btn">Get Started</a>
+                        <a href="javascript:void(0)"  class="popup-btn chosse-btn">Get Started</a>
                     </div>
                 </div>
     </div>
@@ -716,7 +716,7 @@
         </div>
         <div class="row">
             <div class="col-lg-12 centerCol text-center">
-                <a href="javascript:void(0)" id="popup-btn" class="popup-btn themes-btn">Get Started</a>
+                <a href="javascript:void(0)" class="popup-btn themes-btn">Get Started</a>
             </div>
         </div>
     </div>
@@ -795,7 +795,7 @@
                 <h4><b>Help us get an idea of what business or idea is all about.</b></h4>
 
                 <div class="col-lg-12 centerCol text-center">
-                <a href="javascript:void(0)"  class="popup-btn themes-btn">Get Started</a>
+                <a href="javascript:void(0)" class="popup-btn themes-btn">Get Started</a>
             </div>
             </div>
         </div>
@@ -1119,5 +1119,6 @@ window.addEventListener('click', function(event) {
 // $('.overlay-bg').fadeOut(700);
 // });
 </script>
+
 </body>
 </html>
