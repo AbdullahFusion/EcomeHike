@@ -1022,6 +1022,14 @@ form input, form textarea {
     border-radius: 10px;
 }
 
+form select{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
 form button {
     padding: 10px 20px;
     background-color: #4CAF50;
@@ -1059,7 +1067,19 @@ form input{
             <label for="phone">Phone</label>
             <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
 
-            <label for="message">Message</label>
+            <label for="phone">Services</label>
+            <select name="Services" id="Services">
+                <option value="null">select services</option>
+                <option value="Amazon-FBA-Automation">Amazon FBA Automation</option>
+                <option value="Amazon-Private-Label">Amazon Private Label</option>
+                <option value="Amazon-Reinstatement">Amazon Reinstatement</option>
+                <option value="Shopify-Dropshipping-Automation">Shopify Dropshipping Automation</option>
+                <option value="Tiktok-Shop-Automation">Tiktok Shop Automation</option>
+                <option value="Walmart-Automation">Walmart Automation</option>
+            </select>
+            <!-- <input type="tel" id="phone" name="phone" placeholder="Your phone number" required> -->
+
+            <label for="message">Description</label>
             <textarea id="message" name="message" placeholder="Your message" required></textarea>
 
             <input type="submit" class="formbtn" value="Submit">

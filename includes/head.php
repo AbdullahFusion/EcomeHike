@@ -16,7 +16,7 @@
    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< HEAD
+
     <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -30,8 +30,7 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
-=======
->>>>>>> 8ea78168e9a155305a2f853b3a84abc1f84e5414
+
     <!-- Bootstrap CSS -->
     <link href="assets/css/animate.css" rel="stylesheet" >
     <link href="assets/fontawesome5/css/all.min.css" rel="stylesheet">
